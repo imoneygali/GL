@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="500.0" prefWidth="220.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SidePanelController">
+   <children>
+      <ImageView fitHeight="161.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/gl3.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btn_main" alignment="CENTER" buttonType="RAISED" graphicTextGap="5.0" prefHeight="85.0" prefWidth="240.0" ripplerFill="#070106" style="-fx-background-color: #ffffff;" text="BODY" textFill="#070106" wrapText="true">
+         <font>
+            <Font name="Britannic Bold" size="25.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </JFXButton>
+       <JFXButton fx:id="btn_body" alignment="CENTER" buttonType="RAISED" graphicTextGap="5.0" onAction="#action_body" prefHeight="85.0" prefWidth="240.0" ripplerFill="#070106" style="-fx-background-color: #ffffff;" text="LEGS" textFill="#070106" wrapText="true">
+           <font>
+               <Font name="Britannic Bold" size="25.0" />
+           </font>
+           <opaqueInsets>
+               <Insets />
+           </opaqueInsets>
+       </JFXButton>
+       <JFXButton fx:id="btn_legs" alignment="CENTER" buttonType="RAISED" graphicTextGap="5.0" onAction="#action_legs" prefHeight="85.0" prefWidth="240.0" ripplerFill="#070106" style="-fx-background-color: #ffffff;" text="BICEPS" textFill="#070106" wrapText="true">
+           <font>
+               <Font name="Britannic Bold" size="25.0" />
+           </font>
+           <opaqueInsets>
+               <Insets />
+           </opaqueInsets>
+       </JFXButton>
+       <JFXButton fx:id="btn_biceps" alignment="CENTER" buttonType="RAISED" graphicTextGap="5.0" onAction="#action_biceps" prefHeight="85.0" prefWidth="240.0" ripplerFill="#070106" style="-fx-background-color: #ffffff;" text="ABOUT" textFill="#070106" wrapText="true">
+           <font>
+               <Font name="Britannic Bold" size="25.0" />
+           </font>
+           <opaqueInsets>
+               <Insets />
+           </opaqueInsets>
+       </JFXButton>
+   </children>
+</VBox>

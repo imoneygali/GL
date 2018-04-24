@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #444440;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LegsController">
+    <children>
+        <Circle fx:id="c1" fill="#0e9654" layoutX="100.0" layoutY="40.0" radius="20.0" stroke="#0e9654" strokeType="INSIDE" strokeWidth="3.0" />
+        <Circle fx:id="c2" fill="#444440" layoutX="200.0" layoutY="40.0" radius="20.0" stroke="#0e9654" strokeType="INSIDE" strokeWidth="3.0" />
+        <Circle fx:id="c3" fill="#444440" layoutX="300.0" layoutY="40.0" radius="20.0" stroke="#0e9654" strokeType="INSIDE" strokeWidth="3.0" />
+        <Circle fx:id="c4" fill="#444440" layoutX="400.0" layoutY="40.0" radius="20.0" stroke="#0e9654" strokeType="INSIDE" strokeWidth="3.0" />
+        <Circle fx:id="c5" fill="#444440" layoutX="500.0" layoutY="40.0" radius="20.0" stroke="#0e9654" strokeType="INSIDE" strokeWidth="3.0" />
+        <Circle fx:id="c6" fill="#444440" layoutX="600.0" layoutY="40.0" radius="20.0" stroke="#0e9654" strokeType="INSIDE" strokeWidth="3.0" />
+        <Circle fx:id="c7" fill="#444440" layoutX="700.0" layoutY="40.0" radius="20.0" stroke="#0e9654" strokeType="INSIDE" strokeWidth="3.0" />
+        <Line endX="180.0" endY="40.0" fill="#ffffff" startX="110.0" startY="40.0" stroke="#0e9654" strokeType="OUTSIDE" />
+        <Line endX="280.0" endY="40.0" fill="#ffffff" startX="220.0" startY="40.0" stroke="#0e9654" strokeType="OUTSIDE" />
+        <Line endX="380.0" endY="40.0" fill="#ffffff" startX="320.0" startY="40.0" stroke="#0e9654" strokeType="OUTSIDE" />
+        <Line endX="480.0" endY="40.0" fill="#ffffff" startX="420.0" startY="40.0" stroke="#0e9654" strokeType="OUTSIDE" />
+        <Line endX="680.0" endY="40.0" fill="#ffffff" startX="620.0" startY="40.0" stroke="#0e9654" strokeType="OUTSIDE" />
+        <Line endX="580.0" endY="40.0" fill="#ffffff" startX="520.0" startY="40.0" stroke="#0e9654" strokeType="OUTSIDE" />
+        <Text fill="#444440" layoutX="92.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#444440" layoutX="192.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" textAlignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#444440" layoutX="292.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#444440" layoutX="392.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" textAlignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#444440" layoutX="492.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" textAlignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#444440" layoutX="592.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#444440" layoutX="692.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" textAlignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Text>
+        <JFXButton fx:id="btn_start" buttonType="RAISED" layoutX="300.0" layoutY="400.0" onAction="#action_next" prefHeight="60.0" prefWidth="200.0" ripplerFill="#0f9451" text="NEXT" textFill="#0e9654">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </JFXButton>
+        <Text fx:id="legs_ex_name" fill="#0f9451" layoutX="100.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barbell Bench Press ">
+            <font>
+                <Font name="Britannic Bold" size="30.0" />
+            </font>
+        </Text>
+        <Text fx:id="legs_ex_num" layoutX="545.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x 20">
+            <font>
+                <Font name="Britannic Bold" size="30.0" />
+            </font>
+        </Text>
+        <ImageView fx:id="img_ex1" fitHeight="250.0" fitWidth="250.0" layoutX="100.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/ex/LEGS_1_1.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="img_ex2" fitHeight="250.0" fitWidth="250.0" layoutX="450.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/ex/LEGS_1_2.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="img_home" fitHeight="50.0" fitWidth="50.0" layoutX="716.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/img_home.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
